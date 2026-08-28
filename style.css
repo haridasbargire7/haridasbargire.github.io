@@ -916,3 +916,24 @@ footer {
     }
 
 }
+/* =========================
+   SERVICE BUTTON
+========================= */
+
+.service-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 9px 15px;
+    border: 1px solid #38bdf8;
+    border-radius: 7px;
+    color: #38bdf8;
+    font-size: 13px;
+    font-weight: 700;
+    transition: 0.3s ease;
+}
+
+.service-btn:hover {
+    background: #38bdf8;
+    color: #07111f;
+    transform: translateY(-2px);
+}
